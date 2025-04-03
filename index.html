@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicios de fotografía y vídeos con drones">
+    <title>Servicios de Fotografía y Vídeos con Drones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#inscripcion">Inscripción</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de inicio -->
+    <section id="inicio">
+        <div class="hero">
+            <h1>Servicios de Fotografía y Vídeos con Drones</h1>
+            <p>Captura momentos desde una perspectiva única</p>
+        </div>
+    </section>
+
+    <!-- Sección de servicios -->
+    <section id="servicios">
+        <h2>Mis Servicios</h2>
+        <div class="servicio">
+            <h3>Fotografía Aérea</h3>
+            <p>Fotografía de paisajes, eventos y más, capturados desde el aire.</p>
+        </div>
+        <div class="servicio">
+            <h3>Vídeos Aéreos</h3>
+            <p>Vídeos con drones para proyectos cinematográficos, comerciales, y más.</p>
+        </div>
+        <div class="servicio">
+            <h3>Inspecciones y Vigilancia</h3>
+            <p>Ofrecemos inspecciones aéreas para edificios, estructuras y más.</p>
+        </div>
+    </section>
+
+    <!-- Sección de portafolio -->
+    <section id="portafolio">
+        <h2>Portafolio</h2>
+        <div class="galeria">
+            <div class="item">
+                <img src="assets/img/drone1.jpg" alt="Foto de dron 1">
+            </div>
+            <div class="item">
+                <img src="assets/img/drone2.jpg" alt="Foto de dron 2">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de inscripción -->
+    <section id="inscripcion">
+        <h2>Formulario de Inscripción</h2>
+        <form id="formularioInscripcion" action="https://formsubmit.co/tu_email@example.com" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="cedula">Cédula:</label>
+            <input type="text" id="cedula" name="cedula" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" required>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <label for="nombreContacto">Nombre:</label>
+            <input type="text" id="nombreContacto" name="nombre" required>
+            <label for="emailContacto">Correo electrónico:</label>
+            <input type="email" id="emailContacto" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fotografía y Vídeos con Drones. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
